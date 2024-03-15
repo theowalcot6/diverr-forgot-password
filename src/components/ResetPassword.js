@@ -2,6 +2,7 @@ import './ResetPassword.css'
 import { useState } from 'react';
 import axios from 'axios'
 import { useLocation } from 'react-router-dom';
+import logo from './Landing.png'; // Import the image file
 
 function ResetPassword() {
     const [password, setPassword] = useState('')
@@ -29,7 +30,7 @@ function ResetPassword() {
       <>
       <div className="ResetPassword">
         <form onSubmit={handleSubmit} class='reset-password-form'>
-          <h1>Diverr</h1>
+          <img src={logo} alt="Diverr Logo" className="logo" /> {/* Image component */}
             <p class='description'>Enter your new password below</p>
             <label>Password</label>
             <input
