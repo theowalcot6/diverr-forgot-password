@@ -4,6 +4,7 @@ import './App.css';
 
 import ResetPassword from './components/ResetPassword';
 import Error from './components/Error';
+import Home from './components/Home';
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function AppRoutes() {
     <>
     <Routes>
       <Route path="/reset-password/*" element={<ResetPassword />} />
-      <Route path="/*" element={<Error/>} />
+      <Route path="/" element={<Home />} />
+      <Route path="/*" element={<Error />} />
     </Routes>
   </>
   );

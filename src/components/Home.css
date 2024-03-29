@@ -1,0 +1,33 @@
+.Home {
+    background-image: url('./Background.png');
+    background-size: cover;
+    height: 100vh;
+    width:100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo {
+    width:480px;
+    min-width:240px;
+}
+
+.play-store {
+    display:flex;
+    flex-direction: row;
+    height:100px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.google {
+    height:76px;
+    margin-top:2px
+}
+
+.apple {
+    height:54px
+}
