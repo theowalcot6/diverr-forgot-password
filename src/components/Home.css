@@ -1,7 +1,7 @@
 .Home {
     background-image: url('./Background.png');
     background-size: cover;
-    height: 100vh;
+    height: calc(100vh - 103.36px);
     width:100vw;
     display:flex;
     justify-content: center;

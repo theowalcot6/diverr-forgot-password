@@ -5,11 +5,13 @@ import './App.css';
 import ResetPassword from './components/ResetPassword';
 import Error from './components/Error';
 import Home from './components/Home';
+import Navigation from './components/Navigation';
 
 function App() {
   return (
     <div className="App">
       <Router>
+        <Navigation /> {/* Navigation component */}
         <AppRoutes/>
       </Router>
     </div>
